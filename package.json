@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/danielo515/cli-tools.git"
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/danielo515/cli-tools/issues"
   },
-  "homepage": "https://github.com/danielo515/cli-tools#readme"
+  "homepage": "https://github.com/danielo515/cli-tools#readme",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.1.0",
+    "lodash": "^4.17.5"
+  }
 }
