@@ -1,6 +1,6 @@
 {
-  "name": "cli-tools",
-  "version": "0.1.0",
+  "name": "cli-tools-basics",
+  "version": "0.2.0",
   "description": "Your one stop dependency for node-js command line tools creation",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,9 @@
     "figlet": "^1.2.0",
     "inquirer": "^5.1.0",
     "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "semantic-release": "^12.4.1",
+    "standard-version": "^4.3.0"
   }
 }
